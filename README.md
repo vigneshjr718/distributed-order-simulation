@@ -18,7 +18,7 @@ CREATED → PAID → SHIPPED
 Clone the repository:
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/vigneshjr718/distributed-order-simulation.git
 cd distributed-order-simulation
 ```
 
@@ -114,7 +114,7 @@ RECEIVED order=ORD-100 version=1 status=PAID
   APPLIED: version 1, CREATED -> PAID
   APPLIED: version 2, PAID -> SHIPPED
 RECEIVED order=ORD-100 version=2 status=SHIPPED
-  IGNORED: duplicate or already-processed version 2
+  IGNORED: IGNORED: duplicate version 2
 RESULT: status=SHIPPED, applied_versions=[1, 2], pending=[]
 
 === TEST 2: MISSING EVENT ===
